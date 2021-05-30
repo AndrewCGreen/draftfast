@@ -9,7 +9,7 @@ An incredibly powerful tool that automates and optimizes lineup building, allowi
 Requires Python 3.6.
 
 ```bash
-pip install draftfast
+pip install LOCATION OF THIS REPO 
 ```
 
 ## Usage
