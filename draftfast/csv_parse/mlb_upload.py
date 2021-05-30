@@ -5,10 +5,10 @@ from itertools import islice
 
 from draftfast import dke_exceptions as dke
 
-upload_file = '{}/data/current-upload.csv'.format(os.getcwd())
+upload_file = '../data/2021_05_30/current-upload.csv'.format(os.getcwd())
 
 
-def create_upload_file():
+def create_upload_file(upload_file):
     subprocess.call(['touch', upload_file])
     with open(upload_file, 'w') as f:
         writer = csv.writer(f)
